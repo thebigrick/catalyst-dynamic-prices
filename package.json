@@ -1,0 +1,36 @@
+{
+  "name": "@thebigrick/catalyst-dynamic-prices",
+  "version": "0.2.0",
+  "description": "Dynamic pricing system for Catalyst",
+  "main": "src/types.ts",
+  "types": "src/types.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.cjs --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "lint-fix": "eslint . --ext .ts,.js,.cjs --fix"
+  },
+  "author": "Riccardo Tempesta <riccardo.tempesta@bigcommerce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@bigcommerce/catalyst-core": "workspace:*",
+    "@thebigrick/catalyst-pluginizr": "workspace:*",
+    "uuid": "^11.0.4"
+  },
+  "peerDependencies": {
+    "@0no-co/graphql.web": "~1.0.12",
+    "gql.tada": "~1.8.10"
+  },
+  "peerDependenciesMeta": {
+    "gql.tada": {
+      "optional": false
+    },
+    "@0no-co/graphql.web": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "typescript": "^5.6.3"
+  }
+}
