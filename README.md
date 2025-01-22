@@ -72,6 +72,7 @@ Clone this repository into your Catalyst project's `plugins` directory:
 ```bash
 cd /path-to-catalyst
 git submodule add https://github.com/thebigrick/catalyst-dynamic-prices plugins/catalyst-dynamic-prices
+pnpm i
 ```
 
 **After installation, make sure to configure your environment variables as described in the next section.**
